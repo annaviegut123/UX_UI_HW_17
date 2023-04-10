@@ -45,6 +45,11 @@ h1 {
     margin-right: 16px;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
 .case-studies {
     display: block;
     background-color: black;
