@@ -79,20 +79,20 @@ p {
 }
 
 .virginia {
-    margin-left: 100px;
-    margin-right: 1200px;
+    margin-left: 140px;
+    margin-right: 1300px;
     padding-top: 100px;
 }
 
 .addventure {
-    margin-left: 100px;
-    margin-right: 1200px;
+    margin-left: 140px;
+    margin-right: 1300px;
     padding-top: 100px;
 }
 
 .twincities {
-    margin-left: 100px;
-    margin-right: 1200px;
+    margin-left: 140px;
+    margin-right: 1300px;
     padding-top: 100px;
 }
 
@@ -104,19 +104,23 @@ h2 {
     color: white;
     font-size: 64px;
     font-family: 'Crimson Text', serif;
-    text-underline-position: under;
+    text-decoration: underline;
 }
 
 .button {
     font-size: 24px;
     color: white;
     background-color: #956034;
-    width: 310px;
-    height: 84px;
     border-radius: 100px;
     text-align: center;
     vertical-align: middle;
+    padding: 30px;
     margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 .footer {
