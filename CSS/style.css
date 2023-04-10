@@ -78,6 +78,12 @@ p {
     height: 1700px;
 }
 
+h2 {
+    color: white;
+    font-size: 64px;
+    font-family: 'Crimson Text', serif;
+}
+
 .footer {
     display: block;
     background-color: #79814D;
