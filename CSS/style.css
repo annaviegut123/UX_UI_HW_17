@@ -77,3 +77,9 @@ p {
     background-color: black;
     height: 1700px;
 }
+
+.footer {
+    display: block;
+    background-color: #79814D;
+    height: 370px;
+}
