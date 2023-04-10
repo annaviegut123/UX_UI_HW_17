@@ -13,7 +13,17 @@
     <body>
         <header>
          <div class="hero">
-            <div class="menu-icon"></div>
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+              
+              <script>
+              function myFunction(x) {
+                x.classList.toggle("change");
+              }
+              </script>
             <div class="text">
             <h1>Hi there, I’m</h1><h1 class="green-anna">Anna</h1><h1> and this is my portfolio.</h1>
             <p>My vocation is to help make a more beautiful world
