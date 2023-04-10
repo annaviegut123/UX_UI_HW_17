@@ -80,16 +80,19 @@ p {
 
 .virginia {
     margin-left: 100px;
+    margin-right: 1200px;
     padding-top: 100px;
 }
 
 .addventure {
     margin-left: 100px;
+    margin-right: 1200px;
     padding-top: 100px;
 }
 
 .twincities {
     margin-left: 100px;
+    margin-right: 1200px;
     padding-top: 100px;
 }
 
@@ -113,6 +116,7 @@ h2 {
     border-radius: 100px;
     text-align: center;
     vertical-align: middle;
+    margin-top: 30px;
 }
 
 .footer {
