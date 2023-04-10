@@ -4,11 +4,26 @@
     padding: 0;
 }
 
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
 
-.imgbox {
+body {
+    position: absolute;
+}
+
+.hero {
     background-image: url(../images/main-background-image.png);
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 100%;
-    margin: auto;
+    position: fixed; 
+    width: 100%;
+    height: 100%;
+}
+
+.case-studies {
+    display: block;
+    background-color: black;
+    height: 100px;
 }
