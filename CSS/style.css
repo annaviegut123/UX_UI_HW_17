@@ -16,20 +16,29 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    width: 100vw;
     align-self: center;
     background-attachment: fixed;
-    align-items: center;
+    align-items: right;
     justify-content: center;
 }
 
+.menu-icon {
+    background-image: url(../images/menu-icon-image.png);
+}
+
 .text {
-    font-size: 1.4rem;
-    text-align: center;
+    margin-left: 50%;
+    margin-right: 10%;
     color: black;
+}
+
+.green-anna {
+    color: #79814D;
 }
 
 .case-studies {
     display: block;
     background-color: black;
-    height: 400px;
+    height: 900px;
 }
