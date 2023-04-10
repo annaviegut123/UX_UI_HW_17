@@ -78,10 +78,38 @@ p {
     height: 1700px;
 }
 
+.virginia {
+    margin-left: 100px;
+}
+
+.addventure {
+    margin-left: 100px;
+}
+
+.twincities {
+    margin-left: 100px;
+}
+
+.case-study-paragraph {
+    color: white;
+}
+
 h2 {
     color: white;
     font-size: 64px;
     font-family: 'Crimson Text', serif;
+    text-underline-position: under;
+}
+
+.button {
+    font-size: 24px;
+    color: white;
+    background-color: #956034;
+    width: 310px;
+    height: 84px;
+    border-radius: 100px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .footer {
