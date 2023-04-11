@@ -79,9 +79,14 @@ p {
 }
 
 .virginia {
-    margin-left: 140px;
-    margin-right: 1300px;
+    display: flex;
+}
+
+.virginia-text {
+    width: 30%;
     padding-top: 100px;
+    margin-left: 140px;
+    margin-right: 300px;
 }
 
 .addventure {
@@ -122,6 +127,10 @@ h2 {
 
 a {
     text-decoration: none;
+}
+
+.case-study-image {
+    display: inline-block;
 }
 
 footer {
