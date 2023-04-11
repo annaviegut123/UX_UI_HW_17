@@ -90,15 +90,25 @@ p {
 }
 
 .addventure {
-    margin-left: 140px;
-    margin-right: 1300px;
+    display: flex;
+}
+
+.addventure-text {
+    width: 30%;
     padding-top: 100px;
+    margin-left: 140px;
+    margin-right: 300px;
 }
 
 .twincities {
-    margin-left: 140px;
-    margin-right: 1300px;
+    display: flex;
+}
+
+.twincities-text {
+    width: 30%;
     padding-top: 100px;
+    margin-left: 140px;
+    margin-right: 300px;
 }
 
 .case-study-paragraph {
