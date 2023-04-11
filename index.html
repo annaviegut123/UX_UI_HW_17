@@ -9,6 +9,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Roboto&display=swap" rel="stylesheet">
+    
+    <!-- Material Icon CDN -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -17,13 +20,51 @@
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
-              </div>
-              
+            </div>
+            <ul class="menu">
+                <li><a class="menuItem" href="#">About</a></li>
+                <li><a class="menuItem" href="#">Work</a></li>
+                <li><a class="menuItem" href="#">Resume</a></li>
+                <li><a class="menuItem" href="#">Contact</a></li>
+              </ul>
+              <button class="hamburger">
+                <!-- material icons https://material.io/resources/icons/ -->
+                <i class="menuIcon material-icons">menu</i>
+                <i class="closeIcon material-icons">close</i>
+              </button>
+
               <script>
               function myFunction(x) {
                 x.classList.toggle("change");
               }
+
+              const menu = document.querySelector(".menu");
+                const menuItems = document.querySelectorAll(".menuItem");
+                const hamburger= document.querySelector(".hamburger");
+                const closeIcon= document.querySelector(".closeIcon");
+                const menuIcon = document.querySelector(".menuIcon");
+
+                function toggleMenu() {
+                if (menu.classList.contains("showMenu")) {
+                    menu.classList.remove("showMenu");
+                    closeIcon.style.display = "none";
+                    menuIcon.style.display = "block";
+                } else {
+                    menu.classList.add("showMenu");
+                    closeIcon.style.display = "block";
+                    menuIcon.style.display = "none";
+                }
+                }
+
+                hamburger.addEventListener("click", toggleMenu);
+
+                menuItems.forEach( 
+                    function(menuItem) { 
+                     menuItem.addEventListener("click", toggleMenu);
+                    }
+                )
               </script>
+
             <div class="text">
             <h1>Hi there, I’m</h1><h1 class="green-anna">Anna</h1><h1> and this is my portfolio.</h1>
             <p class="hero-paragraph">My vocation is to help make a more beautiful world
