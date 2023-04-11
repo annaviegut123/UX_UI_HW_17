@@ -124,8 +124,26 @@ a {
     text-decoration: none;
 }
 
+footer {
+    background-color: #79814D;
+}
+
 .footer {
-    display: block;
+    display: flex;
+    align-items: center;
     background-color: #79814D;
     height: 370px;
+    margin-left: 140px;
+}
+
+.profile-image {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.footer-text {
+    display: inline-block;
 }
