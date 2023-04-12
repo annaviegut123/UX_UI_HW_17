@@ -86,7 +86,7 @@ p {
 
 .virginia-text {
     width: 30%;
-    padding-top: 6rem;
+    padding-top: 6vw;
     margin-left: 9vw;
     margin-right: 16vw;
 }
@@ -98,7 +98,7 @@ p {
 
 .addventure-text {
     width: 30%;
-    padding-top: 4rem;
+    padding-top: 4vw;
     margin-left: 9vw;
     margin-right: 16vw;
 }
@@ -110,7 +110,7 @@ p {
 
 .twincities-text {
     width: 30%;
-    padding-top: 3.5rem;
+    padding-top: 3.5vw;
     margin-left: 9vw;
     margin-right: 16vw;
 }
