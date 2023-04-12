@@ -252,4 +252,8 @@ h3 {
     justify-content: center;
   }
 
+  .footer-text-element {
+    padding-bottom: 8px;
+    padding-top: 8px;
+  }
  
