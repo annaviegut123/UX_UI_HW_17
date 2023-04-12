@@ -98,7 +98,7 @@ p {
 
 .addventure-text {
     width: 30%;
-    padding-top: 2.5rem;
+    padding-top: 4rem;
     margin-left: 9.8rem;
     margin-right: 18.75rem;
 }
@@ -152,9 +152,9 @@ a {
 
 .case-study-image-two {
     display: inline-block;
-    width: 20%;
-    height: 20%;
-    padding-left: 5%;
+    width: 25%;
+    height: 25%;
+    padding-left: 3%;
     text-align: center;
 }
 
