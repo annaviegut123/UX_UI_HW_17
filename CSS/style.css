@@ -7,7 +7,7 @@
 html {
     overflow-y: scroll;
     overflow-x: hidden;
-    font-size: 100%;
+    font-size: 16px;
 }
 
 .hero {
@@ -58,7 +58,7 @@ html {
 
 h1 {
     display: inline-block;
-    font-size: 4.5rem;
+    font-size: 4vw;
     font-family: 'Crimson Text', serif;
 }
 
@@ -70,7 +70,7 @@ h1 {
 
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.2vw;
 }
 
 .case-studies {
@@ -147,6 +147,7 @@ a {
     display: inline-block;
     width: 30%;
     height: 30%;
+    text-align: center;
 }
 
 .case-study-image-two {
@@ -191,8 +192,8 @@ h3 {
 .social-icon {
     width: 5.625rem;
     height: 5.625rem;
-    margin-right: 0.938;
-    margin-left: 0.938;
+    margin-right: 0.938rem;
+    margin-left: 0.938rem;
 }
 
 .social-icon-nav {
