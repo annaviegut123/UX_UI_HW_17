@@ -87,8 +87,8 @@ p {
 .virginia-text {
     width: 30%;
     padding-top: 6rem;
-    margin-left: 9.8rem;
-    margin-right: 18.75rem;
+    margin-left: 9vw;
+    margin-right: 16vw;
 }
 
 .addventure {
@@ -99,8 +99,8 @@ p {
 .addventure-text {
     width: 30%;
     padding-top: 4rem;
-    margin-left: 9.8rem;
-    margin-right: 18.75rem;
+    margin-left: 9vw;
+    margin-right: 16vw;
 }
 
 .twincities {
@@ -111,8 +111,8 @@ p {
 .twincities-text {
     width: 30%;
     padding-top: 3.5rem;
-    margin-left: 9.8rem;
-    margin-right: 18.75rem;
+    margin-left: 9vw;
+    margin-right: 16vw;
 }
 
 .case-study-paragraph {
@@ -128,7 +128,7 @@ h2 {
 }
 
 .button {
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     color: white;
     background-color: #956034;
     border-radius: 6.25rem;
@@ -148,6 +148,7 @@ a {
     width: 30%;
     height: 30%;
     text-align: center;
+    margin-right: 4vw;
 }
 
 .case-study-image-two {
@@ -156,6 +157,7 @@ a {
     height: 25%;
     padding-left: 3%;
     text-align: center;
+    margin-right: 4vw;
 }
 
 footer {
@@ -166,8 +168,9 @@ footer {
     display: flex;
     align-items: center;
     background-color: #79814D;
-    height: 23.125rem;
-    margin-left: 9.813rem;
+    height: 20vw;
+    margin-left: 9vw;
+    margin-right: 4vw;
 }
 
 .profile-image {
@@ -180,20 +183,21 @@ footer {
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
 }
 
 .footer-text {
     display: inline-block;
-    margin-left: 2.5rem;
-    margin-right: 1rem;
+    width: 35vw;
+    margin-left: 2vw;
+    margin-right: 1vw;
 }
 
 .social-icon {
-    width: 5.625rem;
-    height: 5.625rem;
-    margin-right: 0.938rem;
-    margin-left: 0.938rem;
+    width: 5vw;
+    height: 5vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
 }
 
 .social-icon-nav {
