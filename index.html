@@ -16,27 +16,22 @@
     <body>
         <header>
          <div class="hero">
-            <div class="container" onclick="myFunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
             <ul class="menu">
-                <li><a class="menuItem" href="#">About</a></li>
-                <li><a class="menuItem" href="#">Work</a></li>
-                <li><a class="menuItem" href="#">Resume</a></li>
-                <li><a class="menuItem" href="#">Contact</a></li>
+                <li><a class="menuItem" href="#">ABOUT</a></li>
+                <li><a class="menuItem" href="#">WORK</a></li>
+                <li><a class="menuItem" href="#">RESUME</a></li>
+                <li><a class="menuItem" href="#">CONTACT</a></li>
+                <a class="menuItem" href="#"><img src="images\email-icon.png" class="social-icon"></a>
+                <a class="menuItem" href="#"></a><img src="images\linkedin-icon.png" class="social-icon"></a>
+                <a class="menuItem" href="#"></a><img src="images\dribbble-icon.png" class="social-icon"></a>
+                <a class="menuItem" href="#"></a><img src="images\behance-icon.png" class="social-icon"></a>
               </ul>
               <button class="hamburger">
-                <!-- material icons https://material.io/resources/icons/ -->
-                <i class="menuIcon material-icons">menu</i>
-                <i class="closeIcon material-icons">close</i>
+                <img src="images\menu-icon-image.png" class="menuIcon material-icons">
+                <img src="images\close-icon.png" class="closeIcon material-icons">
               </button>
 
               <script>
-              function myFunction(x) {
-                x.classList.toggle("change");
-              }
 
               const menu = document.querySelector(".menu");
                 const menuItems = document.querySelectorAll(".menuItem");
@@ -51,6 +46,7 @@
                     menuIcon.style.display = "block";
                 } else {
                     menu.classList.add("showMenu");
+                    closeIcon.style.visibility = "visible";
                     closeIcon.style.display = "block";
                     menuIcon.style.display = "none";
                 }
