@@ -12,7 +12,7 @@ html {
     font-size: 16px;
 }
 
-/* hero section styles */
+/* header hero section styles */
 
 header {
     display: flex;
@@ -221,7 +221,7 @@ ul {
     font-family: 'Roboto', sans-serif;
 }
 
-/* footer styles */
+/* footer section styles */
 
 footer {
     background-color: #79814D;
