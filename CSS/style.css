@@ -35,6 +35,7 @@ header {
 }
 
 /* navigation menu styles */
+/* inspired by and modified from ljc-dev original 'Easy hamburger menu with JS - Beginners' code https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0 */
 
 .hamburger {
     position: fixed;
