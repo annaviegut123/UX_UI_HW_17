@@ -1,4 +1,6 @@
 
+/* root element styles */
+
 * {
     margin: 0rem;
     padding: 0rem;
@@ -9,6 +11,8 @@ html {
     overflow-x: hidden;
     font-size: 16px;
 }
+
+/* hero section styles */
 
 header {
     display: flex;
