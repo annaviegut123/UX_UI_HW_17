@@ -60,6 +60,10 @@ header {
     height: 2.5rem;
   }
 
+  .showMenu {
+    transform: translateX(0);
+  }
+
 .menu {
     position: fixed;
     transform: translateX(100%);
@@ -75,10 +79,6 @@ header {
     padding-top: 5rem;
     padding-left: 6.5rem;
     border-left: 5px solid black;
-  }
-
-  .showMenu {
-    transform: translateX(0);
   }
 
   .menuItem {
@@ -192,18 +192,6 @@ ul {
     margin-top: 1.25rem;
 }
 
-.button {
-    font-size: 1.5vw;
-    color: white;
-    background-color: #956034;
-    border-radius: 6.25rem;
-    text-align: center;
-    vertical-align: middle;
-    padding: 1.6vw;
-    margin-top: 1.6vw;
-    font-family: 'Roboto', sans-serif;
-}
-
 .case-study-image {
     display: inline-block;
     width: 30%;
@@ -219,6 +207,18 @@ ul {
     padding-left: 3%;
     text-align: center;
     margin-right: 4vw;
+}
+
+.button {
+    font-size: 1.5vw;
+    color: white;
+    background-color: #956034;
+    border-radius: 6.25rem;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1.6vw;
+    margin-top: 1.6vw;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* footer styles */
@@ -248,15 +248,16 @@ footer {
     margin-right: 1vw;
 }
 
-.social-icon {
+.footer-text-element {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.social-icon-footer {
     width: 5vw;
     height: 5vw;
     margin-right: 1vw;
     margin-left: 1vw;
 }
 
-  .footer-text-element {
-    padding-bottom: 0.5rem;
-    padding-top: 0.5rem;
-  }
  
